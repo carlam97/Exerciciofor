@@ -9,11 +9,11 @@ public class ExerFor5{
         int x = 58;
         if(x%2==0){
          x = x/2; 
-         System.out.println(x);  
+         System.out.println("O valor de X é par e é igual a: "+ x);  
         }
             else{
                 x = 3 * x + 1;
-            System.out.println(x);
+            System.out.println("O valor de X é impar e é igual a: "+ x);
             }
     }
 }
